@@ -34,3 +34,23 @@ npm run build
 ```
 npm run test
 ```
+### 4) How to deploy
+```
+npm run deploy --network ${network}
+```
+### 5) How to verify
+```
+npx hardhat verify --network ${network} ${Proxy Contract Address}
+npx hardhat verify --network ${network} ${Vault Contract Address}
+```
+
+## 3. Deployed Contract on Polygon Mumbai Testnet
+### 1) Proxy Contract
+```
+https://mumbai.polygonscan.com/address/0x604Ce94599c0e400D192F109fbE8F4D17cAc0973#code
+```
+
+### 2) Vault Contract
+```
+https://mumbai.polygonscan.com/address/0xE97FAD02933e10ec47a97701E0fafDE7AcEE2A46#code
+```
